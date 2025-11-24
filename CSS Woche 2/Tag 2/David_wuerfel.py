@@ -1,0 +1,23 @@
+import random
+wuerfelZahl = random.randint(1, 6)
+#Die Zahlen von 1 bis 6 von der Variable wuerfelZahl werden zufällig ausgegeben
+print("Willkommen beim Computerwuerfel!!")
+input("Drücke Enter um den Wuerfel zu werfen!!")
+#Nach dem Drücken der Entertaste, wird die zufällige Zahl ausgegeben, oder 
+print(wuerfelZahl)
+wuerfelZahl = random.randint(1, 6)
+input("Drücke Enter um den Wuerfel zu werfen!!")
+print(wuerfelZahl)
+wuerfelZahl = random.randint(1, 6)
+input("Drücke Enter um den Wuerfel zu werfen!!")
+print(wuerfelZahl)
+wuerfelZahl = random.randint(1, 6)
+input("Drücke Enter um den Wuerfel zu werfen!!")
+print(wuerfelZahl)
+wuerfelZahl = random.randint(1, 6)
+input("Drücke Enter um den Wuerfel zu werfen!!")
+print(wuerfelZahl)
+wuerfelZahl = random.randint(1, 6)
+input("Drücke Enter um den Wuerfel zu werfen!!")
+print(wuerfelZahl)
+print("Vielen Dank für das Ausprobieren!! Ich wünsche dir einen schönen Tag!!! :) ")
