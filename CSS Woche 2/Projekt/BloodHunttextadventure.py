@@ -1,6 +1,8 @@
 import pygame
 import time
 import sys
+from enemy import Enemies
+from hero import Hero
 
 def langsamer_text(text, delay = 0.03):
     for char in text:
@@ -88,3 +90,4 @@ pygame.mixer.init()
 main_menu()
 
      
+
