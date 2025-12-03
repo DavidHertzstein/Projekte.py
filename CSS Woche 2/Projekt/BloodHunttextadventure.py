@@ -85,7 +85,7 @@ def charakterauswahl():
             break
         print("Ungültige Klasse! Wähle: Krieger, Magier oder Assasine")
    
-    # Held erstellen - FEHLER BEHOBEN: name hinzugefügt
+    # Held erstellen 
     held = Hero(name="Held", klasse=charakterwahl)
    
     langsamer_text(f"So mein {charakterwahl}, WACH AUF!!!!")
@@ -219,3 +219,4 @@ if __name__ == "__main__":
     pygame.init()
     pygame.mixer.init()
     main_menu()
+
