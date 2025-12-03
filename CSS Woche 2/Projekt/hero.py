@@ -6,7 +6,7 @@ class Hero:
         self.maxhp = 100
         self.strength = 20
  
-        # Klassenspezifische Werte
+        # Klassenspezifische (Boni) Werte
         if self.klasse.lower() == "krieger":
             self.hitpoints = 120
             self.maxhp = 120
@@ -19,3 +19,4 @@ class Hero:
             self.hitpoints = 90
             self.maxhp = 90
             self.strength = 28
+
