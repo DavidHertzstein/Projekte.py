@@ -29,6 +29,21 @@ class Enemies:
        self.strength = 10 #Stärke zeigt wie viel Schaden der Gegner macht
        self.dodgechance = 0 #Zeigt eine mögliche Ausweich-Chance 1 = 10% um auszuweichen, 4 = 40% etc
        self.critchance = 1 #Zeigt Chancen auf kritische Treffer 1 = 10% um auszuweichen, 4 = 40% etc
-
-   
-    
+ 
+class Boss():
+    def __init__(self):
+        self.name = ""
+        self.hitpoints = 0
+        self.maxhp = 0
+        self.strength = 0
+        self.dodgechance = 0
+        self.critchance = 0
+ 
+ 
+    def enemy_schwarzer_ritter(self):
+        self.name = "Schwarzer Rosenritter"
+        self.hitpoints = 250
+        self.maxhp = 300
+        self.strength = 30
+        self.dodgechance = 2
+        self.critchance = 4
